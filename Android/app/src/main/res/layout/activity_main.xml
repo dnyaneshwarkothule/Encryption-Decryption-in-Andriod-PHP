@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/encrypt_decrypt_input"
+        android:layout_alignParentLeft="true"
+        android:text="Encrypt This Text"
+        android:hint="Encrypt This Text">
+    </EditText>
+
+    <LinearLayout
+        android:layout_below="@+id/encrypt_decrypt_input"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Encrypt"
+            android:id="@+id/btn_encrypt">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrypt"
+            android:id="@+id/btn_decrypt">
+        </Button>
+    </LinearLayout>
+</RelativeLayout>
